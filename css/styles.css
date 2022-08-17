@@ -1,0 +1,198 @@
+body {font-family: "Montserrat";
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat-Bold";
+}
+
+h3 {font-size: 2rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+/* navbar */
+
+.tumi {margin-bottom: 2rem;
+  border-radius: 25px
+}
+
+/* Title section */
+
+.destiny {
+font-size: 3rem;
+line-height: 1.5;
+color: black;
+}
+
+.westin {width: 100%;
+  border-radius: 25px
+}
+
+.download {margin: 5% 3% 5% 0;
+}
+
+/* Section searcher */
+
+.tumi2 {margin: 5% auto 1% auto;
+  width: 30%;
+  text-align: center;
+  border-radius: 25px
+}
+
+.searchita {padding: 0 8% 0 16%;
+   margin:0 8%;
+ }
+
+.location {width:30%;
+  text-align: center;
+  margin:0.2% auto;
+}
+
+.flechita {margin: 0 50% 0 47.5%;
+  font-size: 300%;
+}
+
+.flecha {transform: rotate(180deg);
+  margin: 0.2% 0
+}
+
+.destination {width:30%;
+  text-align: center;
+  margin:0.2% auto;
+}
+
+/* Section puntos */
+
+.puntosbox {text-align: center;
+}
+
+.icon {font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #64e986;
+}
+
+.icon:hover {
+  color:black;
+}
+
+/* Section Bus Types */
+
+.busverde {width:70%;
+  border-radius: 25%;
+  margin:3%;
+}
+
+.districtlogo {width:70%;
+  margin:3%;
+  height: 80%
+}
+
+.distritos {margin-top: 3%;
+}
+
+.sanluis, .callao,.lamolina, .agustino, .jesusmaria, .rimac   {
+  width: 50%;
+}
+
+.surco {width: 80%;
+}
+
+.comas, .villasalvador {width: 60%;
+}
+
+.puentepiedra {width: 90%;
+}
+
+/* Carousel */
+
+.carousel, .carousel-item {
+    transition-duration: 0.2s;
+}
+
+/* Ultima parte section */
+ .iconito {font-size: 1.9rem;
+    margin: auto 1% 1.5%
+  }
+
+ .footer:hover {color:white;
+   text-decoration: none;
+ }
+
+
+
+
+/* IDS/Whole Sections */
+#title {padding: 5% 15%;
+  background-color: #64e986
+}
+
+#searcher {padding-bottom: 5%;
+  background-color: #64e986;
+}
+
+#puntos {padding: 7.5% 15%;
+}
+
+#busroutes {padding: 7.5% 15%;
+  text-align: center
+}
+
+#rutabus {background-color: white;
+  height: 80%
+}
+
+#ultimaparte {background-color:#64e986;
+  text-align: center;
+  padding-top: 7.5%;
+  padding-bottom: 0.4%
+}
+
+
+/* BOOTSTRAP Func */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.navbar-brand1 {font-family: "Ubuntu";
+font-size: 1.5rem;
+font-weight: bold;
+text-align: center;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+
+
+
+/* INPUT */
+
+input[type="submit"] {
+    padding:0 3%;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin-top: 1%;
+    font-size: 2rem;
+    font-family: "Ubuntu";
+}
+
+
+input[type="submit"]:hover {
+  border: 1px solid white ;
+  background-color: #64e986;
+}
