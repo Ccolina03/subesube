@@ -17,326 +17,331 @@
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 <link rel="stylesheet" href="css/styles.css">
 
-</head>
+
+
 <!-- Bootstraps script -->
 
 <body>
-  <section id="title">
 
-  <div class="container-fluid">
+<section id="title">
 
-
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark tumi">
-        <a class="navbar-brand" href="">SubaSuba </a>
+<div class="container-fluid">
 
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbardemo" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="navbar-toggler-icon"></span>
-     </button>
-
-        <div class="collapse navbar-collapse" id="navbardemo">
-
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item navbar-danger">
-                <a class="nav-link" href=""> Mission </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href=""> Transportation </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href=""> Contact </a>
-            </li>
-        </ul>
-
-        </div>
-
-    </nav>
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark tumi">
+      <a class="navbar-brand" href="">SubaSuba </a>
 
 
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbardemo" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
 
-    <!-- Title -->
+      <div class="collapse navbar-collapse" id="navbardemo">
+
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item navbar-danger">
+              <a class="nav-link" href=""> Mission </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href=""> Transportation </a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href=""> Contact </a>
+          </li>
+      </ul>
+
+      </div>
+
+  </nav>
 
 
 
+  <!-- Title -->
+
+
+
+
+<div class="row">
+
+<div class="col-lg-6">
+  <h1 class="destiny">To your new destiny.</h1>
+  <button type="button" class= "btn btn-dark btn-lg download"><i class="fa-brands fa-apple"></i> Download</button>
+  <button type="button" class= "btn btn-outline-light btn-lg download"><i class="fa-brands fa-google-play"></i> Download</button>
+</div>
+
+<div class="col-lg-6">
+  <img class="westin" src="images/westin.jpg" alt="Lima City">
+</div>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+  <!-- Features -->
+
+
+<section id="puntos">
+
+<div class="row">
+  <div class="col-lg-4 md-12 sm-12 puntosbox">
+    <i class="fa-solid fa-clock icon"></i>
+    <h3>Arrival times.</h3>
+    <p>Never miss another informal bus.</p>
+  </div>
+
+  <div class="col-lg-4 md-12 sm-12 puntosbox">
+    <i class="fa-solid fa-bus icon"></i>
+    <h3>Nearest bus stops.</h3>
+    <p>Discover where these buses usually pickup passengers.</p>
+  </div>
+  <div class="col-lg-4 md-12 sm-12 puntosbox">
+<i class="fa-solid fa-location-dot icon"></i>
+      <h3>Real time location.</h3>
+      <p>Find out the bus location before leaving your house.</p>
+  </div>
+
+</div>
+
+</section>
+
+<section id="searcher">
+
+<div class="container-fluid">
 
   <div class="row">
-
-  <div class="col-lg-6">
-    <h1 class="destiny">To your new destiny.</h1>
-    <button type="button" class= "btn btn-dark btn-lg download"><i class="fa-brands fa-apple"></i> Download</button>
-    <button type="button" class= "btn btn-outline-light btn-lg download"><i class="fa-brands fa-google-play"></i> Download</button>
-  </div>
-
-  <div class="col-lg-6">
-    <img class="westin" src="images/westin.jpg" alt="Lima City">
-  </div>
-
-  </div>
-
-
-  </div>
-
-  </section>
-
-
-    <!-- Features -->
-
-
-  <section id="puntos">
-
-  <div class="row">
-    <div class="col-lg-4 md-12 sm-12 puntosbox">
-      <i class="fa-solid fa-clock icon"></i>
-      <h3>Arrival times.</h3>
-      <p>Never miss another informal bus.</p>
+      <div class="col-lg-12 md-12 sm-12 search">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark tumi2">
+             <a class="navbar-brand searchita" href="">SubaSuba Searcher </a>
+        </nav>
+      </div>
+<form action="/action_page.php" method="get">
+  <center>
+    <div class="col-lg-12 md-12 sm-12 spaceloca">
+      <input class="form-control location" name="ubicacion"placeholder="Your location">
     </div>
+  </center>
 
-    <div class="col-lg-4 md-12 sm-12 puntosbox">
-      <i class="fa-solid fa-bus icon"></i>
-      <h3>Nearest bus stops.</h3>
-      <p>Discover where these buses usually pickup passengers.</p>
+    <div class="col-lg-12 md-12 sm-12 flechita">
+      <i class="fa-solid fa-arrows-up-to-line flecha"></i>
     </div>
-    <div class="col-lg-4 md-12 sm-12 puntosbox">
-  <i class="fa-solid fa-location-dot icon"></i>
-        <h3>Real time location.</h3>
-        <p>Find out the bus location before leaving your house.</p>
+  <center>
+    <div class="col-lg-12 md-12 sm-12 spacedest">
+      <input class="form-control destination" name="destinacion" placeholder="Your destination">
     </div>
-
-  </div>
-
-  </section>
-
-  <section id="searcher">
-
-  <div class="container-fluid">
-
-    <div class="row">
-        <div class="col-lg-12 md-12 sm-12 search">
-          <nav class="navbar navbar-expand-lg navbar-dark bg-dark tumi2">
-               <a class="navbar-brand searchita" href="">SubaSuba Searcher </a>
-          </nav>
-        </div>
-  <form action="/action_page.php" method="get">
-    <center>
-      <div class="col-lg-12 md-12 sm-12 spaceloca">
-        <input class="form-control location" name="ubicacion"placeholder="Your location">
-      </div>
-    </center>
-
-      <div class="col-lg-12 md-12 sm-12 flechita">
-        <i class="fa-solid fa-arrows-up-to-line flecha"></i>
-      </div>
-    <center>
-      <div class="col-lg-12 md-12 sm-12 spacedest">
-        <input class="form-control destination" name="destinacion" placeholder="Your destination">
-      </div>
-      <div>
-            <input type="submit" value="Find">
-      </div>
-
-    </center>
-
-
-      </form>
-
-      </div>
-
-
-    </div>
-
-  </section>
-
-
-  <section class="rutasdebus">
     <div>
-      <div
-        id="rutabus"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <section id="busroutes">
-
-              <h1 class="pilot">Pilot Routes</h1>
-              <img class="busverde" src="images/busverde.jpg" alt="Pachacamac-Carabayllo">
-              <h2>The following bus connects East Lima with North Lima and daily transports more than 25000 people. Locals usually call the bus as "El verde" which means green in spanish.</h2>
-              <em>Pachacamac-Carabayllo</em>
-
-              <div class="container-fluid distritos">
-                <div class="row">
-                  <div class="col-lg-2 md-2 sm-2">
-                      <img class="districtlogo pachacamac" src="images/pachacamac.png" alt="Pachacamc District Logo">
-                  </div>
-                  <div class="col-lg-2 md-4 sm-6">
-                      <img class="districtlogo lamolina" src="images/lamolina1.png" alt="La Molina District Logo">
-                  </div>
-                  <div class="col-lg-2 md-4 sm-6">
-                    <img class="districtlogo ate" src="images/ate.jpg" alt="Ate District Logo">
-                  </div>
-                  <div class="col-lg-2 md-4 sm-6">
-                      <img class="districtlogo rimac" src="images/rimac.png" alt="Rimac District Logo">
-                  </div>
-                  <div class="col-lg-2 md-4 sm-6">
-                        <img class="districtlogo carabayllo" src="images/carabayllo.png" alt="Carabayllo District Logo">
-                  </div>
-                  <div class="col-lg-2 md-4 sm-6">
-                        <img class="districtlogo smp" src="images/smp.png" alt="SMP District Logo">
-                  </div>
-
-
-                </div>
-
-              </div>
-
-            </section>
-
-
-
-          </div>
-          <div class="carousel-item">
-            <section id="busroutes">
-
-              <h1 class="pilot">Pilot Routes</h1>
-              <img class="busverde" src="images/puntapachacamac.jpg" alt="Pachacamac-Carabayllo">
-              <h2>The following bus connects East Lima with West Lima. Locals usually call the bus as "PuntaPachacamac" which are the arrival and destiny districts.</h2>
-              <em>Pachacamac-La Punta</em>
-
-              <div class="container-fluid distritos">
-                <div class="row">
-                  <div class="col-lg-2 md-2 sm-2">
-                      <img class="districtlogo pachacamac" src="images/pachacamac.png" alt="Pachacamc District Logo">
-                  </div>
-                  <div class="col-lg-2 md-4 sm-6">
-                      <img class="districtlogo lamolina" src="images/lamolina1.png" alt="La Molina District Logo">
-                  </div>
-                  <div class="col-lg-2 md-4 sm-6">
-                    <img class="districtlogo ate" src="images/ate.jpg" alt="Ate District Logo">
-                  </div>
-                  <div class="col-lg-2 md-4 sm-6">
-                      <img class="districtlogo sanluis" src="images/sanluis.png" alt="San Luis District Logo">
-                  </div>
-                  <div class="col-lg-2 md-4 sm-6">
-                        <img class="districtlogo jesusmaria" src="images/jesusmaria.png" alt="Jesus Maria District Logo">
-                  </div>
-                  <div class="col-lg-2 md-4 sm-6">
-                        <img class="districtlogo callao" src="images/callao.png" alt="Callao District Logo">
-                  </div>
-
-
-                </div>
-
-              </div>
-
-            </section>
-
-          </div>
-
-
-          <div class="carousel-item">
-
-            <section id="busroutes">
-
-              <h1 class="pilot">Pilot Routes</h1>
-              <img class="busverde" src="images/chino1.jpg" alt="Pachacamac-Carabayllo">
-              <h2>The following bus connects South Lima with North Lima through the most important highway in Lima. Locals usually call the bus as "El chino".</h2>
-              <em>Puente Piedra-Villa Salvador</em>
-
-              <div class="container-fluid distritos">
-                <div class="row">
-                  <div class="col-lg-2 md-2 sm-2">
-                      <img class="districtlogo villasalvador" src="images/villasalvador.png" alt="Villa El Salvador District Logo">
-                  </div>
-                  <div class="col-lg-2 md-4 sm-6">
-                      <img class="districtlogo surco" src="images/surco.png" alt="Surco District Logo">
-                  </div>
-                  <div class="col-lg-2 md-4 sm-6">
-                    <img class="districtlogo agustino" src="images/agustino.png" alt="El AgustinoDistrict Logo">
-                  </div>
-                  <div class="col-lg-2 md-4 sm-6">
-                      <img class="districtlogo rimac" src="images/rimac.png" alt="Rimac District Logo">
-                  </div>
-                  <div class="col-lg-2 md-4 sm-6">
-                        <img class="districtlogo comas" src="images/comas1.png" alt="Comas District Logo">
-                  </div>
-                  <div class="col-lg-2 md-4 sm-6">
-                        <img class="districtlogo puentepiedra" src="images/puentepiedra1.jpeg" alt="Puente Piedra District Logo">
-                  </div>
-
-
-                </div>
-
-              </div>
-
-            </section>
-
-
-
-
-
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#rutabus"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#rutabus"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#rutabus"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#rutabus"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#rutabus"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
+          <input type="submit" value="Find">
     </div>
-  </section>
+
+  </center>
 
 
-    <!-- Ultima Parte -->
+    </form>
 
-    <footer id="ultimaparte">
+    </div>
 
 
-        <a href="https://www.instagram.com/ccolina03/" class="footer"><i class="fa-brands fa-instagram iconito"></i>  </a>
-        <a href="https://www.facebook.com/profile.php?id=100008346251995&viewas=100000686899395" class="footer"><i class="fa-brands fa-facebook iconito"></i></a>
-        <a href="https://www.linkedin.com/in/ccolina03/" class="footer"><i class="fa-brands fa-linkedin iconito "></i></a>
+  </div>
+
+</section>
+
+
+<section class="rutasdebus">
+  <div>
+    <div
+      id="rutabus"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <section id="busroutes">
+
+            <h1 class="pilot">Pilot Routes</h1>
+            <img class="busverde" src="images/busverde.jpg" alt="Pachacamac-Carabayllo">
+            <h2>The following bus connects East Lima with North Lima and daily transports more than 25000 people. Locals usually call the bus as "El verde" which means green in spanish.</h2>
+            <em>Pachacamac-Carabayllo</em>
+
+            <div class="container-fluid distritos">
+              <div class="row">
+                <div class="col-lg-2 md-2 sm-2">
+                    <img class="districtlogo pachacamac" src="images/pachacamac.png" alt="Pachacamc District Logo">
+                </div>
+                <div class="col-lg-2 md-4 sm-6">
+                    <img class="districtlogo lamolina" src="images/lamolina1.png" alt="La Molina District Logo">
+                </div>
+                <div class="col-lg-2 md-4 sm-6">
+                  <img class="districtlogo ate" src="images/ate.jpg" alt="Ate District Logo">
+                </div>
+                <div class="col-lg-2 md-4 sm-6">
+                    <img class="districtlogo rimac" src="images/rimac.png" alt="Rimac District Logo">
+                </div>
+                <div class="col-lg-2 md-4 sm-6">
+                      <img class="districtlogo carabayllo" src="images/carabayllo.png" alt="Carabayllo District Logo">
+                </div>
+                <div class="col-lg-2 md-4 sm-6">
+                      <img class="districtlogo smp" src="images/smp.png" alt="SMP District Logo">
+                </div>
+
+
+              </div>
+
+            </div>
+
+          </section>
+
+
+
+        </div>
+        <div class="carousel-item">
+          <section id="busroutes">
+
+            <h1 class="pilot">Pilot Routes</h1>
+            <img class="busverde" src="images/puntapachacamac.jpg" alt="Pachacamac-Carabayllo">
+            <h2>The following bus connects East Lima with West Lima. Locals usually call the bus as "PuntaPachacamac" which are the arrival and destiny districts.</h2>
+            <em>Pachacamac-La Punta</em>
+
+            <div class="container-fluid distritos">
+              <div class="row">
+                <div class="col-lg-2 md-2 sm-2">
+                    <img class="districtlogo pachacamac" src="images/pachacamac.png" alt="Pachacamc District Logo">
+                </div>
+                <div class="col-lg-2 md-4 sm-6">
+                    <img class="districtlogo lamolina" src="images/lamolina1.png" alt="La Molina District Logo">
+                </div>
+                <div class="col-lg-2 md-4 sm-6">
+                  <img class="districtlogo ate" src="images/ate.jpg" alt="Ate District Logo">
+                </div>
+                <div class="col-lg-2 md-4 sm-6">
+                    <img class="districtlogo sanluis" src="images/sanluis.png" alt="San Luis District Logo">
+                </div>
+                <div class="col-lg-2 md-4 sm-6">
+                      <img class="districtlogo jesusmaria" src="images/jesusmaria.png" alt="Jesus Maria District Logo">
+                </div>
+                <div class="col-lg-2 md-4 sm-6">
+                      <img class="districtlogo callao" src="images/callao.png" alt="Callao District Logo">
+                </div>
+
+
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <div class="carousel-item">
+
+          <section id="busroutes">
+
+            <h1 class="pilot">Pilot Routes</h1>
+            <img class="busverde" src="images/chino1.jpg" alt="Pachacamac-Carabayllo">
+            <h2>The following bus connects South Lima with North Lima through the most important highway in Lima. Locals usually call the bus as "El chino".</h2>
+            <em>Puente Piedra-Villa Salvador</em>
+
+            <div class="container-fluid distritos">
+              <div class="row">
+                <div class="col-lg-2 md-2 sm-2">
+                    <img class="districtlogo villasalvador" src="images/villasalvador.png" alt="Villa El Salvador District Logo">
+                </div>
+                <div class="col-lg-2 md-4 sm-6">
+                    <img class="districtlogo surco" src="images/surco.png" alt="Surco District Logo">
+                </div>
+                <div class="col-lg-2 md-4 sm-6">
+                  <img class="districtlogo agustino" src="images/agustino.png" alt="El AgustinoDistrict Logo">
+                </div>
+                <div class="col-lg-2 md-4 sm-6">
+                    <img class="districtlogo rimac" src="images/rimac.png" alt="Rimac District Logo">
+                </div>
+                <div class="col-lg-2 md-4 sm-6">
+                      <img class="districtlogo comas" src="images/comas1.png" alt="Comas District Logo">
+                </div>
+                <div class="col-lg-2 md-4 sm-6">
+                      <img class="districtlogo puentepiedra" src="images/puentepiedra1.jpeg" alt="Puente Piedra District Logo">
+                </div>
+
+
+              </div>
+
+            </div>
+
+          </section>
+
+
+
+
+
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#rutabus"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#rutabus"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="carousel-indicators">
+      <button
+        type="button"
+        data-bs-target="#rutabus"
+        data-bs-slide-to="0"
+        class="active"
+        aria-current="true"
+        aria-label="Slide 1"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#rutabus"
+        data-bs-slide-to="1"
+        aria-label="Slide 2"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#rutabus"
+        data-bs-slide-to="2"
+        aria-label="Slide 3"
+      ></button>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Ultima Parte -->
+
+  <footer id="ultimaparte">
+
+
+      <a href="https://www.instagram.com/ccolina03/" class=footer-link><i class="fa-brands fa-instagram iconito"></i>  </a>
+      <a href=""><i class="fa-brands fa-facebook iconito"></i></a>
+      a<i class="fa-brands fa-linkedin iconito "></i>
+
+
+
         <p>© Copyright 2022 SubeSube</p>
 
-    </footer>
+  </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </head
 </body>
 
 </html>
